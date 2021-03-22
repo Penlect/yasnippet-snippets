@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: clamp value
+# key: clamp
+# --
+min(max(${1:value}, ${2:minimum}) ${3:maximum})

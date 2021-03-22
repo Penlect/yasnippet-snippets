@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: ifee
+# key: ifee
+# --
+if ${1:True}:
+    ${3:pass}
+elif ${2:True}:
+    ${4:pass}
+else:
+    $0

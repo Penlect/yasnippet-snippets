@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _ifloordiv
+# key: _ifloordiv
+# --
+def __ifloordiv__(self, other):
+    return $0

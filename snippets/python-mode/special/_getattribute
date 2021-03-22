@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _getattribute
+# key: _getattribute
+# --
+def __getattribute__(self, name):
+    return $0

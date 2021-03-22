@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _lshift
+# key: _lshift
+# --
+def __lshift__(self, other):
+    return $0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: if in collection
+# key: ifi
+# --
+if ${1:item} in ${2:collection}:
+    $0

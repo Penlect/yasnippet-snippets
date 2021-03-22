@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _slots
+# key: _slots
+# --
+__slots__ = ($1)
+$0

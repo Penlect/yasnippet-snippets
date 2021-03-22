@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: try-exc-else-finally
+# key: teef
+# --
+try:
+    ${2:pass}
+except ${1:Exception}:
+    ${3:pass}
+else:
+    ${4:pass}
+finally:
+    ${5:pass}
+    $0

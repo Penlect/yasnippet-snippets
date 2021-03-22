@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: if None
+# key: ifn
+# --
+if ${1:cond} is None:
+    $0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: _new
+# key: _new
+# --
+def __new__(cls${1:, args}):
+    """$2
+
+    """
+    ${1:$(elpy-snippet-init-assignments yas-text)}

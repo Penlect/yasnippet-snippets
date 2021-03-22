@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: staticmethod
+# key: dsm
+# --
+@staticmethod
+def ${1:func}(${2:args}):
+    ${3:pass}
+    $0

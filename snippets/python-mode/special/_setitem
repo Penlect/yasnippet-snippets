@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _setitem
+# key: _setitem
+# --
+def __setitem__(self, key, value):
+    $0

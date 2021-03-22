@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _delitem
+# key: _delitem
+# --
+def __delitem__(self, key):
+    $0

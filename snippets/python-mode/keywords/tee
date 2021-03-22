@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: try-exc-else
+# key: tee
+#
+# --
+try:
+    ${2:pass}
+except ${1:Exception}:
+    ${3:pass}
+else:
+    ${4:pass}
+    $0

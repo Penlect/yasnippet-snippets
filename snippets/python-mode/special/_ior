@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _ior
+# key: _ior
+# --
+def __ior__(self, other):
+    return $0

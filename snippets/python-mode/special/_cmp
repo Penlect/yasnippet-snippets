@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _cmp
+# key: _cmp
+# --
+def __cmp__(self, other):
+    return $0

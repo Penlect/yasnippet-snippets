@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: class
+# key: cls
+# --
+class ${1:A}:
+    ${2:pass}$0

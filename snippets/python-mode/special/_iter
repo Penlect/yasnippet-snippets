@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _iter
+# key: _iter
+# --
+def __iter__(self):
+    return ${1:iter($2)}

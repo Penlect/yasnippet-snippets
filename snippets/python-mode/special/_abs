@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _abs
+# key: _abs
+# --
+def __abs__(self):
+    return $0

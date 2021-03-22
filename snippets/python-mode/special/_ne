@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _ne
+# key: _ne
+# --
+def __ne__(self, other):
+    return $0

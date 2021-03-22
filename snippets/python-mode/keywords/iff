@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: if False
+# key: iff
+# --
+if ${1:cond} is False:
+    $0

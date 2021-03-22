@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _or
+# key: _or
+# --
+def __or__(self, other):
+    return $0

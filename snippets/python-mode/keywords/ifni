@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: if not in collection
+# key: ifni
+# --
+if ${1:item} not in ${2:collection}:
+    $0

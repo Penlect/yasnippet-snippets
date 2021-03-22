@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _float
+# key: _float
+# --
+def __float__(self):
+    return $0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: raise Exception
+# key: raise
+# --
+raise ${1:Exception}($2'$3')$0

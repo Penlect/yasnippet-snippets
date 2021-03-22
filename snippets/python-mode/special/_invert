@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _invert
+# key: _invert
+# --
+def __invert__(self):
+    return $0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _div
+# key: _div
+# --
+def __div__(self, other):
+    return $0

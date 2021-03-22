@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _ilshift
+# key: _ilshift
+# --
+def __ilshift__(self, other):
+    return $0

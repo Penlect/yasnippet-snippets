@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _radd
+# key: _radd
+# --
+def __radd__(self, other):
+    return $0

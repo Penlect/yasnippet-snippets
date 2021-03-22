@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _rdivmod
+# key: _rdivmod
+# --
+def __rdivmod__(self, other):
+    return $0

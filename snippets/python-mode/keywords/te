@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: try-exc
+# key: te
+# --
+try:
+    ${2:pass}
+except ${1:Exception}:
+    ${3:pass}
+    $0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _rfloordiv
+# key: _rfloordiv
+# --
+def __rfloordiv__(self, other):
+    return $0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _getitem
+# key: _getitem
+# --
+def __getitem__(self, key):
+    return $0

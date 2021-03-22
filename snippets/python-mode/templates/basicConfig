@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: logging basicConfig
+# key: basicconfig
+# --
+import logging
+FMT_STDOUT = '%(asctime)s %(threadName)s %(levelname)s '\
+             '%(name)s(%(lineno)d) %(message)s'
+logging.basicConfig(format=FMT_STDOUT, level=logging.${1:DEBUG})$0

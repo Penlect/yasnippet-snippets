@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: classmethod
+# key: dcm
+# --
+@classmethod
+def ${1:meth}(cls${2:, $3}):
+    ${4:pass}
+    $0

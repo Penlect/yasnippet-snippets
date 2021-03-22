@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _long
+# key: _long
+# --
+def __long__(self):
+    return $0

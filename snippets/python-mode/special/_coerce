@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _coerce
+# key: _coerce
+# --
+def __coerce__(self, other):
+    return $0

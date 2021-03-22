@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _contains
+# key: _contains
+# --
+def __contains__(self, item):
+    return $0

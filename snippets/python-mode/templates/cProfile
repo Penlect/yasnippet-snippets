@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: cProfile
+# key: profile
+# --
+# $ snakeviz /tmp/cProfile/`(buffer-name)`.prof
+import cProfile
+profile_dir = '/tmp/cProfile'
+os.makedirs(profile_dir, exist_ok=True)
+cProfile.runctx('${1:main()}', globals(), locals(),
+                filename=f'{profile_dir}/`(buffer-name)`.prof')

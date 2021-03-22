@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _add
+# key: _add
+# --
+def __add__(self, other):
+    return $0

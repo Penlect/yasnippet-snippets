@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _rmul
+# key: _rmul
+# --
+def __rmul__(self, other):
+    return $0

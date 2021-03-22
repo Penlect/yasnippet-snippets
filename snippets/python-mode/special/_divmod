@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _divmod
+# key: _divmod
+# --
+def __divmod__(self, other):
+    return $0

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: for enumeration(iter)
+# key: fenum
+# --
+for ${4:i}, ${2:item} in enumerate(${1:iterable}, start=${3:0}):
+    ${5:pass}
+    $0

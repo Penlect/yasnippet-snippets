@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: while-else
+# key: we
+# --
+while ${1:True}:
+    if 'needle':
+        break
+else:
+    $0

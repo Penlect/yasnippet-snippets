@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _rxor
+# key: _rxor
+# --
+def __rxor__(self, other):
+    return $0

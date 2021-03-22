@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _len
+# key: _len
+# --
+def __len__(self):
+    return $0

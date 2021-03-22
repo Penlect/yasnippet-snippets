@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _reversed
+# key: _reversed
+# --
+def __reversed__(self):
+    return $0

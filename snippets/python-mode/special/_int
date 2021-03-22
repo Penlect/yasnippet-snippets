@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _int
+# key: _int
+# --
+def __int__(self):
+    $0

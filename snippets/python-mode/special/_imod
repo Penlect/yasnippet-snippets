@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _imod
+# key: _imod
+# --
+def __imod__(self, other):
+    return $0

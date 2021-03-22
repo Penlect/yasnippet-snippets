@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ife
+# key: ife
+# expand-var: ((yas-indent-line 'fixed))
+# --
+if $1:
+    ${2:pass}
+else:
+    $0

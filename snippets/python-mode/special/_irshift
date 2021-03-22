@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _irshift
+# key: _irshift
+# --
+def __irshift__(self, other):
+    return $0

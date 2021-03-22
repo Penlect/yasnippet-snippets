@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: for-else
+# key: fe
+# --
+for ${1:item} in ${2:iterable}:
+    if $1 == 'needle':
+        break
+else:
+    ${3:pass}
+    $0

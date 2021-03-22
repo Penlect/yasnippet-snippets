@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: enum
+# key: en
+# --
+class ${1:class}(Enum):
+    $0

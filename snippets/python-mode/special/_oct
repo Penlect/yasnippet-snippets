@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: _oct
+# key: _oct
+# --
+def __oct__(self):
+    return $0

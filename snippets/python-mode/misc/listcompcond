@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: list comp condition
+# key: lcc
+# --
+[${3:i} for ${2:i} in ${1:iterable} if $4]

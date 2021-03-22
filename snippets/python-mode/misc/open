@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Open file
+# key: open
+# --
+with open('$1', '${2:r}') as ${3:fobj}:
+     $0
