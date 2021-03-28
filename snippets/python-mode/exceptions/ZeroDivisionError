@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ZeroDivisionError
+# key: Zer
+# --
+ZeroDivisionError

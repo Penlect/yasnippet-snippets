@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: FileNotFoundError
+# key: Fil
+# --
+FileNotFoundError

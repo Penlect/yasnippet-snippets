@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ValueError
+# key: Val
+# --
+ValueError
