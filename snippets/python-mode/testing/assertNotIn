@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: assetNotIn
-# key: an
+# key: ani
 # --
 self.assertNotIn(${1:member}, ${2:container})

@@ -2,10 +2,27 @@
 # name: script
 # key: script
 # --
-#!/usr/bin/env python
+#!/usr/bin/env python3
+"""$1"""
 
-def main():
-    pass
+# Built-in
+import argparse
 
-if __name__ == '__main__':
-    main()
+
+def main(args):
+    print(args)
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "--host",
+    default="localhost",
+    help="Broker host (default: %(default)s).",
+)
+
+if __name__ == "__main__":
+    args = parser.parse_args()
+    try:
+        main(args)
+    except KeyboardInterrupt:
+        print('Bye')

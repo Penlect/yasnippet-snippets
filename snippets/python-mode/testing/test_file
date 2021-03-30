@@ -1,11 +1,28 @@
 # -*- mode: snippet -*-
 # name: test_file
-# key: tf
+# key: test_file
 # --
-import unittest
-${1:from ${2:test_file} import *}
+"""$1"""
 
-$0
+# Built-in
+import unittest
+from unittest import mock
+
+# Package
+import $2
+
+
+class Test${3:toTest}(unittest.TestCase):
+
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        pass
+
+    def test_nothing(self):
+        $0
+
 
 if __name__ == '__main__':
     unittest.main()

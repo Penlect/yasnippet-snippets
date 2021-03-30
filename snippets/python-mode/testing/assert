@@ -2,4 +2,4 @@
 # name: assert
 # key: ass
 # --
-assert $0
+self.assert${1:$$(yas-choose-value '("Equal" "NotEqual" "True" "False" "Is" "IsNot" "IsNone" "IsNotNone" "In" "NotIn" "IsInstance" "NotIsInstance"))}($0)

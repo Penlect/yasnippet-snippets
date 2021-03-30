@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: rich.logging
+# key: richlog
+# --
+import rich.logging
+
+logfmt = "%(asctime)s %(name)s %(message)s"
+logging.basicConfig(
+    level=logging.INFO,
+    format=logfmt,
+    datefmt="[%X]",
+    handlers=[rich.logging.RichHandler(rich_tracebacks=True)],
+)
